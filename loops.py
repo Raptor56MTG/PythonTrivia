@@ -2,20 +2,20 @@ def helpful_context():
     """This part primarily focuses on your understanding of loops.
     What is going on in a for loop in python under the hood?"""
 
-def problem5():
+def problem1():
     for x in range(3):
         print(x)
         x = 3
 
-def problem6():
+def problem2():
     x = 0
     while x < 3:
         print(x)
         x = 3
 
 if __name__ == '__main__':
-    problem5()
-    # problem6()
+    problem1()
+    # problem2()
 
 def explanation():
     """

@@ -1,4 +1,4 @@
-def problem7():
+def problem():
     difficulties = [
             'easy',  # <---- comma
             'medium' # <---- no comma
@@ -7,7 +7,7 @@ def problem7():
     print(difficulties)
 
 if __name__ == '__main__':
-    problem7()
+    problem()
 
 def explanation():
     """
