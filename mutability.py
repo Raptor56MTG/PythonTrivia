@@ -20,15 +20,16 @@ def problem4():
     a = 5
     grid = [a] * 3
     print(grid)
-    grid[0] += 1
+    a += 1
     print(grid)
+    print(a)
 
 
 if __name__ == '__main__':
-    # problem1()
-    # problem2()
-    # problem3()
-    # problem4()
+    problem1()
+    problem2()
+    problem3()
+    problem4()
     pass
 
 def explanation():

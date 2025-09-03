@@ -12,6 +12,12 @@ def prerequisite2():
     c += 1
     print(c, id(c))
 
+def javan_test():
+    a = 10000
+    c = 10000
+    print(a, c, id(a), id(c))
+
+
 def questions():
     """
     1. Why do A and C have the same address in memory?
@@ -71,7 +77,7 @@ def prerequisite3():
     # Case 4: computed at runtime
     c = 100 + 100
     d = 200
-    print("Case 3: runtime computation")
+    print("Case 4: runtime computation")
     print("c, d", c, d)
     print("c == d:", c == d) # True --> same value
     print("c is d:", c is d) # True --> (in range of cached values)
@@ -85,11 +91,20 @@ def prerequisite4():
     print(a, id(a))  # id is the memory address
     print(b, id(b))  # id is the memory address
 
+
+def julian_test():
+    a = "hello world"
+    b = a
+    print(a, id(a))
+    print(b, id(b))
+
 if __name__ == '__main__':
+    # javan_test()
     # prerequisite1()
     # prerequisite2()
     # prerequisite3()
-    prerequisite4()
+    # prerequisite4()
+    julian_test()
     pass
 
 def takeaways():

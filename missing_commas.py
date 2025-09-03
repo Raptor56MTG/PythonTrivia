@@ -1,8 +1,9 @@
 def problem():
+    x = 5
     difficulties = [
             'easy',  # <---- comma
-            'medium' # <---- no comma
-            'hard' # <------- no comma
+            f"medium {x}" # <---- no comma
+             + 5 # <------- no comma
         ]
     print(difficulties)
 

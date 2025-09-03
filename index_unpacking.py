@@ -7,12 +7,12 @@ def problem1():
 def problem2():
     site = ["Javan", "Sam", "James", "Kutay"]
     idx = 2
-    idx, site[idx], = 3, 'Julian'
+    idx, site[idx] = 3, 'Julian'
     print(site)
 
 if __name__ == '__main__':
     problem1()
-    # problem2()
+    problem2()
 
 def explanation():
     """

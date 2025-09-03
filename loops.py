@@ -14,8 +14,8 @@ def problem2():
         x = 3
 
 if __name__ == '__main__':
-    problem1()
-    # problem2()
+    # problem1()
+    problem2()
 
 def explanation():
     """

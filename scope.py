@@ -14,7 +14,8 @@ def problem1():
 
 def problem2():
     a = 4
-    b = 5
+    # b = 5
+    print("print c before", c)
     def inner():
         nonlocal a
         global b
@@ -23,8 +24,10 @@ def problem2():
         print(c)
         a = 6
         b = 7
-        c = 8
+        # c = 8
     inner()
+    print(a)
+    print(b)
 
 
 def problem3():
@@ -40,8 +43,8 @@ def problem3():
 
 if __name__ == '__main__':
     # problem1()
-    problem2()
-    # problem3()
+    # problem2()
+    problem3()
 
 
 def explanation():

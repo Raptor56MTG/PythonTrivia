@@ -23,11 +23,11 @@ def problem1():
         print("Invalid Comparison!")
     size = 10
     bar = list(range(size))
+    print(bar, bar[~2])
     if bar[~2] % 2 == 0:
         print("Bad modular arithmetic.")
     else:
         print("All Valid!")
-
 
 def problem2():
     foo = [1, 2, 3, 4, 5]
@@ -36,5 +36,5 @@ def problem2():
 
 
 if __name__ == '__main__':
-    problem1()
-    # problem2()
+    # problem1()
+    problem2()
